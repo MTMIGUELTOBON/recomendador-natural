@@ -44,5 +44,7 @@ st.markdown("**🌟 Beneficios:**")
 for b in prod["beneficios"]:
     st.markdown(f"- {b}")
 
-if st.button("📲 Solicitar por WhatsApp"):
-    webbrowser.open_new_tab(prod["whatsapp"])
+if st.markdown(
+    f"[📲 Solicitar por WhatsApp]({prod['whatsapp']})",
+    unsafe_allow_html=True)
+
