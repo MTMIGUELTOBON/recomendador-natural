@@ -1,5 +1,4 @@
 import streamlit as st
-import webbrowser
 
 st.set_page_config(page_title="Recomendador Natural", layout="centered")
 
@@ -7,6 +6,7 @@ st.title("🌿 Recomendador Natural de Bienestar")
 
 st.markdown("Selecciona un producto para conocer sus beneficios y solicitarlo por WhatsApp.")
 
+# --- Productos ---
 productos = {
     "Sales de Magnesio B10": {
         "descripcion": "Complemento alimenticio con magnesio elemental, ideal para apoyar el bienestar general del cuerpo y el sistema muscular.",
@@ -34,6 +34,7 @@ productos = {
     }
 }
 
+# --- Interfaz de usuario ---
 opcion = st.selectbox("Selecciona un producto:", list(productos.keys()))
 
 prod = productos[opcion]
@@ -44,7 +45,9 @@ st.markdown("**🌟 Beneficios:**")
 for b in prod["beneficios"]:
     st.markdown(f"- {b}")
 
-if st.markdown(
+# Enlace a WhatsApp funcional
+st.markdown(
     f"[📲 Solicitar por WhatsApp]({prod['whatsapp']})",
-    unsafe_allow_html=True)
+    unsafe_allow_html=True
+)
 
