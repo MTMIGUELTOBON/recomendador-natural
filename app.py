@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Título llamativo emocional
+# Título emocional directo
 st.markdown("""
 <style>
 .big-title {
@@ -23,75 +23,73 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="big-title">¿Cansancio, insomnio o ansiedad? Podrías estar perdiendo minerales esenciales sin saberlo...</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-title">¿Estás perdiendo energía, malhumorado o con insomnio?</p>', unsafe_allow_html=True)
 
-# Test de síntomas
-st.markdown('<p class="subheading">✅ ¿Te identificas con alguno de estos síntomas?</p>', unsafe_allow_html=True)
+st.markdown('<p class="subheading">Tu cuerpo podría estar bajo en minerales esenciales como Magnesio, Potasio y Zinc.</p>', unsafe_allow_html=True)
+
 st.markdown("""
-- 🔹 Me cuesta dormir profundamente  
-- 🔹 Me siento sin energía todo el día  
-- 🔹 Sufro de estrés constante o dolores musculares  
-- 🔹 Tengo defensas bajas o problemas digestivos
+---
+
+### 🔍 Identifica tus síntomas:
+- Problemas para dormir
+- Cansancio crónico
+- Estrés o ansiedad
+- Calambres musculares
+- Inmunidad baja
+
+---
+
+### 💪 Beneficios de Magnesio B10:
+- **Magnesio**: Relaja músculos, mejora el sueño y regula el sistema nervioso
+- **Potasio**: Equilibra la presión arterial y fortalece músculos
+- **Zinc**: Refuerza defensas, mejora digestión y producción hormonal
+
+---
+
+### 📹 Videos recomendados:
 """)
 
-# Botón WhatsApp inicial
-st.markdown("""
-[🟢 ¡Lo necesito! Escríbeme por WhatsApp](https://wa.me/573053447946?text=Hola%2C+quiero+más+información+sobre+el+Magnesio+B10)  
-""")
-
-# Beneficios del producto
-st.markdown('<p class="subheading">🌟 ¿Por qué tu cuerpo necesita Magnesio, Potasio y Zinc?</p>', unsafe_allow_html=True)
-st.markdown("""
-- ✅ **Magnesio**: Ayuda a relajar los músculos, mejorar el sueño y reducir el estrés.  
-- ✅ **Potasio**: Regula la presión arterial, apoya la función nerviosa y muscular.  
-- ✅ **Zinc**: Refuerza el sistema inmune y mejora la salud hormonal y digestiva.
-""")
-
-# Video de respaldo
 st.video("https://youtu.be/_V8GAcucXKc?si=XdQ_SrsrvXkxKUoY")
 st.video("https://youtu.be/NuoXHhgvt2M?si=WuGfb6M6dxcerKir")
-st.markdown("[🎥 Ver video en Facebook](https://www.facebook.com/share/v/15oewXmRJw/)")
+st.markdown("[Ver en Facebook](https://www.facebook.com/share/v/15oewXmRJw/)")
 
-# Testimonios simulados
-st.markdown('<p class="subheading">💬 Lo que dicen quienes ya lo usan</p>', unsafe_allow_html=True)
+st.markdown("""
+---
+
+### 📊 Comparativa del producto:
+
+| Característica                     | Magnesio B10 | Otros productos |
+|----------------------------------|--------------|-----------------|
+| 4 tipos de magnesio               | ✅            | ❌              |
+| Incluye potasio y zinc           | ✅            | ❌              |
+| Sin azúcar, con stevia           | ✅            | ❌              |
+| Hecho en laboratorio colombiano  | ✅            | ❓              |
+
+---
+
+### ⭐ Testimonios:
+""")
+
 st.markdown('''
 <div class="testimonial">
-“Llevo tomando el Magnesio B10 2 semanas y ya duermo mejor y tengo más energía. ¡Gracias!”  
-— Laura G., Bogotá
+"Después de 3 días ya dormía mejor. Lo recomiendo 100%"  
+— María Fernanda, Medellín
 </div>
 <div class="testimonial">
-“Soy hipertenso y esta fórmula con potasio me ha ayudado muchísimo, muy recomendado.”  
-— Julián M., Medellín
+"Lo tomo antes de dormir y me relaja el cuerpo completo."  
+— Andrés L., Cali
 </div>
 ''', unsafe_allow_html=True)
 
-# Comparativa de valor
-st.markdown('<p class="subheading">📊 ¿Por qué elegir Magnesio B10?</p>', unsafe_allow_html=True)
 st.markdown("""
-| Característica                     | Magnesio B10 | Otros suplementos |
-|----------------------------------|--------------|-------------------|
-| 4 tipos de magnesio combinados   | ✅            | ❌                |
-| Con zinc y potasio incluidos     | ✅            | ❌                |
-| Sin azúcar, endulzado con stevia | ✅            | ❌                |
-| Aprobado por laboratorio colombiano | ✅         | ❓                |
-""")
+---
 
-# Oferta limitada
-st.markdown('<p class="subheading">🎁 Oferta especial HOY:</p>', unsafe_allow_html=True)
-st.markdown("""
-💥 Precio promocional: **$64.900**  
-📦 Domicilio incluido en Colombia  
-📞 Escríbenos ahora por WhatsApp y recibe el tuyo
-""")
+### 🎯 ¡Aprovecha la oferta!
+💰 **$64.900 con envío incluido**
+📦 Entregas a toda Colombia
 
-# CTA final fuerte
-st.markdown("""
-[🚀 ¡Quiero comprar ahora!](https://wa.me/573053447946?text=Hola%2C+quiero+comprar+el+Magnesio+B10+y+aprovechar+la+oferta)  
-""")
+[🟢 Pedir ahora por WhatsApp](https://wa.me/573053447946?text=Hola%2C+quiero+comprar+el+Magnesio+B10+y+aprovechar+la+oferta)
 
-# Estética general
-st.markdown("""
 ---
 🧪 Producto natural certificado por **Laboratorios SAVIFAR**
 """)
-
