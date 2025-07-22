@@ -16,7 +16,12 @@ st.markdown("""
 # 💙 Sales de Magnesio B10  
 ### Compuesto Marino + Potasio + Zinc  
 """)
-st.image("1000083186.jpg", caption="600g - Línea Premium Gold Savifar", use_column_width=True)
+
+# 🔄 OPCIÓN 1: Imagen local (asegúrate de que el archivo esté en la misma carpeta)
+# st.image("1000083186.jpg", caption="600g - Línea Premium Gold Savifar", use_container_width=True)
+
+# 🔄 OPCIÓN 2: Imagen online (alternativa para evitar errores de carga local)
+st.image("https://i.imgur.com/v8c1vck.jpg", caption="600g - Línea Premium Gold Savifar", use_container_width=True)
 
 st.markdown("""
 ¿Sabías que más del 70% de las personas tienen deficiencia de **magnesio, potasio o zinc** y no lo saben?
@@ -67,12 +72,11 @@ st.markdown("""
 # ---------------------------
 st.markdown("## 🛒 ¿Quieres probarlo?")
 
-st.image("1000083186.jpg", caption="Sales de Magnesio B10 - 600g", use_column_width=True)
+st.image("https://i.imgur.com/v8c1vck.jpg", caption="Sales de Magnesio B10 - 600g", use_container_width=True)
 
 st.markdown("""
 💵 **Precio:** $64.900 (con domicilio incluido en Colombia)  
-📦 Contiene: Citrato, Cloruro, Bisglicinato y Malato de Magnesio, Zinc, Potasio, y más.
-
+📦 Contiene: Citrato, Cloruro, Bisglicinato y Malato de Magnesio, Zinc, Potasio, y más.  
 ✅ Apto para adultos, sin azúcar, endulzado con stevia.
 """)
 
@@ -82,13 +86,8 @@ st.markdown("""
 whatsapp_text = "Hola, vi las Sales de Magnesio B10 y quiero más información."
 whatsapp_url = f"https://wa.me/573053447946?text={whatsapp_text.replace(' ', '%20')}"
 
-st.markdown(f"""
-<a href="{whatsapp_url}" target="_blank">
-    <button style="background-color: #25D366; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px;">
-        💬 Hablar por WhatsApp
-    </button>
-</a>
-""", unsafe_allow_html=True)
+if st.button("💬 Hablar por WhatsApp"):
+    st.markdown(f"[Haz clic aquí para escribirnos por WhatsApp]({whatsapp_url})", unsafe_allow_html=True)
 
 # ---------------------------
 # PIE DE PÁGINA
