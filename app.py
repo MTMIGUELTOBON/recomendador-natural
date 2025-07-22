@@ -4,90 +4,91 @@ import streamlit as st
 # CONFIGURACIÓN INICIAL
 # ---------------------------
 st.set_page_config(
-    page_title="Sales de Magnesio B10",
+    page_title="Descubre los beneficios del Magnesio",
     page_icon="💊",
     layout="centered",
 )
 
 # ---------------------------
-# ENCABEZADO
+# TITULAR PROFESIONAL
 # ---------------------------
 st.markdown("""
-# 💙 Sales de Magnesio B10  
-### Compuesto Marino + Potasio + Zinc  
-""")
+# 🌿 ¿Sabías que el Magnesio puede transformar tu salud?
 
-# 🔄 OPCIÓN 1: Imagen local (asegúrate de que el archivo esté en la misma carpeta)
-# st.image("1000083186.jpg", caption="600g - Línea Premium Gold Savifar", use_container_width=True)
+Más del 70% de las personas sufren deficiencia de **magnesio, potasio o zinc** sin saberlo.
 
-# 🔄 OPCIÓN 2: Imagen online (alternativa para evitar errores de carga local)
-st.image("https://i.imgur.com/v8c1vck.jpg", caption="600g - Línea Premium Gold Savifar", use_container_width=True)
-
-st.markdown("""
-¿Sabías que más del 70% de las personas tienen deficiencia de **magnesio, potasio o zinc** y no lo saben?
-
-Este suplemento ayuda a tu cuerpo a recuperar el equilibrio natural y mejorar funciones clave como el sueño, la digestión, el sistema inmune y la energía.
+Estos tres minerales son fundamentales para que el cuerpo funcione de manera óptima. Descubre cómo pueden ayudarte a mejorar tu energía, tu descanso y tu bienestar diario.
 """)
 
 # ---------------------------
-# BENEFICIOS
+# BENEFICIOS EDUCATIVOS
 # ---------------------------
-st.markdown("## ✅ Beneficios del Magnesio, Potasio y Zinc")
+st.markdown("## ✅ Beneficios de cada mineral")
 
 with st.expander("🧠 Magnesio"):
     st.markdown("""
-- Relaja el sistema nervioso y muscular.
-- Mejora el sueño, la digestión y reduce el estrés.
-- Esencial en más de 300 funciones bioquímicas del cuerpo.
+- Relaja el sistema nervioso y reduce el estrés.
+- Mejora la calidad del sueño y el descanso profundo.
+- Alivia dolores musculares y calambres.
+- Apoya la digestión y el equilibrio emocional.
 """)
 
 with st.expander("💪 Potasio"):
     st.markdown("""
 - Regula la presión arterial.
-- Ayuda al equilibrio de líquidos y el ritmo cardíaco.
-- Reduce calambres musculares y fatiga.
+- Mejora la contracción muscular y la energía.
+- Previene la fatiga y los calambres.
+- Mantiene el equilibrio de líquidos en el cuerpo.
 """)
 
 with st.expander("🛡 Zinc"):
     st.markdown("""
-- Refuerza el sistema inmunológico.
-- Mejora la piel, el cabello y la fertilidad.
-- Acelera la cicatrización y mejora las defensas.
+- Refuerza el sistema inmune.
+- Ayuda a la cicatrización de la piel.
+- Mejora el cabello, las uñas y la fertilidad.
+- Regula hormonas y el metabolismo celular.
 """)
 
 # ---------------------------
-# VIDEOS INFORMATIVOS
+# VIDEOS RECOMENDADOS
 # ---------------------------
-st.markdown("## 🎥 Videos Recomendados")
+st.markdown("## 🎥 ¿Qué dicen los expertos?")
 
 st.video("https://youtu.be/_V8GAcucXKc?si=XdQ_SrsrvXkxKUoY")
 st.video("https://youtu.be/NuoXHhgvt2M?si=WuGfb6M6dxcerKir")
-
-st.markdown("""
-🔗 [Ver otro video en Facebook](https://www.facebook.com/share/v/15oewXmRJw/)
-""")
+st.markdown("🔗 [Ver otro video en Facebook](https://www.facebook.com/share/v/15oewXmRJw/)")
 
 # ---------------------------
 # SECCIÓN DEL PRODUCTO
 # ---------------------------
-st.markdown("## 🛒 ¿Quieres probarlo?")
-
-st.image("https://i.imgur.com/v8c1vck.jpg", caption="Sales de Magnesio B10 - 600g", use_container_width=True)
+st.markdown("## 🛒 ¿Quieres mejorar tu salud con un solo suplemento?")
 
 st.markdown("""
-💵 **Precio:** $64.900 (con domicilio incluido en Colombia)  
-📦 Contiene: Citrato, Cloruro, Bisglicinato y Malato de Magnesio, Zinc, Potasio, y más.  
-✅ Apto para adultos, sin azúcar, endulzado con stevia.
+Te presentamos **Sales de Magnesio B10**, una fórmula completa con:
+
+- Magnesio (Citrato, Cloruro, Malato y Bisglicinato)
+- Potasio
+- Zinc
+- Libre de azúcar, endulzado con stevia
+
+💵 **Precio especial:** $64.900 (con domicilio incluido en Colombia)
 """)
 
 # ---------------------------
 # BOTÓN WHATSAPP
 # ---------------------------
-whatsapp_text = "Hola, vi las Sales de Magnesio B10 y quiero más información."
+whatsapp_text = "Hola, quiero saber más sobre el suplemento de Magnesio B10"
 whatsapp_url = f"https://wa.me/573053447946?text={whatsapp_text.replace(' ', '%20')}"
 
-if st.button("💬 Hablar por WhatsApp"):
-    st.markdown(f"[Haz clic aquí para escribirnos por WhatsApp]({whatsapp_url})", unsafe_allow_html=True)
+st.markdown(f"""
+<div style='text-align: center; margin-top: 30px;'>
+    <a href="{whatsapp_url}" target="_blank">
+        <button style="background-color: #25D366; color: white; padding: 12px 30px; border: none; border-radius: 8px; font-size: 18px;">
+            💬 Más información por WhatsApp
+        </button>
+    </a>
+</div>
+""", unsafe_allow_html=True)
 
 # ---------------------------
 # PIE DE PÁGINA
