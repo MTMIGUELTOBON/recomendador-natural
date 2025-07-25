@@ -15,11 +15,6 @@ Aquí descubrirás cómo minerales como el **Magnesio, el Potasio y el Zinc** pu
 ✅ Mejorar tu digestión  
 ✅ Sentirte más en equilibrio
 
-> Porque sanar no es un lujo, es una decisión. Y empieza en tu plato.
-""", unsafe_allow_html=True)
-
-st.markdown("## 🤔 ¿Por qué tu cuerpo ya no se siente igual?")
-
 st.video("https://www.youtube.com/watch?v=_V8GAcucXKc")
 
 st.markdown("""
