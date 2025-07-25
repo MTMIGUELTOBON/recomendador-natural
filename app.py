@@ -83,3 +83,43 @@ with st.expander("🛡️ Zinc: defensa y reparación del cuerpo"):
 """)
 
 st.markdown("> 🔬 Tu cuerpo necesita estos minerales **a diario** para funcionar como debe.")
+
+st.markdown("## 🌿 ¿Cómo empezar a cuidar tu salud mineral?")
+
+st.markdown("""
+Pequeños cambios diarios hacen una gran diferencia:
+
+- 🧃 Elimina o reduce el azúcar refinada.
+- 🥬 Consume más vegetales de hoja verde.
+- 🚫 Disminuye harinas y productos ultraprocesados.
+- 💧 Toma suficiente agua pura.
+- 💊 Y si necesitas un apoyo extra, puedes incluir suplementos de calidad.
+
+""")
+
+st.markdown("---")
+
+st.markdown("### 💙 Te recomendamos: **Sales de Magnesio B10 – Savifar**")
+
+# Mostrar la imagen del producto
+from PIL import Image
+image = Image.open("/mnt/data/1000083186.jpg")
+st.image(image, caption="Sales de Magnesio B10 – Compuesto Marino", use_column_width=True)
+
+st.markdown("""
+Con 7 tipos de magnesio, potasio, zinc, vitaminas B6, D y otros minerales esenciales.  
+✅ Sin azúcar añadida  
+✅ Apto para toda la familia  
+✅ 600 gramos de pureza mineral
+
+""")
+
+# Botón WhatsApp directo con mensaje personalizado
+import urllib.parse
+mensaje = "Hola, estoy interesado en las Sales de Magnesio B10 que vi en tu página web. ¿Me puedes dar más información?"
+url = f"https://wa.me/573053447946?text={urllib.parse.quote(mensaje)}"
+
+st.markdown(f"""
+👉 [**Haz clic aquí para pedir por WhatsApp**]( {url} )
+""")
+
