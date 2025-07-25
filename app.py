@@ -23,15 +23,16 @@ st.markdown("""
 Vivimos en una época donde **lo común es sentirse mal**,  
 pero **sanar es posible cuando comprendes lo que tu cuerpo necesita**.
 """, unsafe_allow_html=True)
-st.markdown("## El poder de los minerales")
+st.markdown("## 🌿 El poder de los minerales")
 
 st.markdown("""
 Los desequilibrios de minerales son más comunes de lo que creemos,  
 y afectan directamente cómo te sientes **cada día**.
+""")
 
 st.video("https://www.youtube.com/watch?v=NuoXHhgvt2M")
 
- with st.expander("🧠 Magnesio: el mineral del equilibrio"):
+with st.expander("🧠 Magnesio: el mineral del equilibrio"):
     st.markdown("""
 - Relaja el sistema nervioso y los músculos  
 - Mejora el sueño y reduce el estrés  
@@ -57,8 +58,4 @@ with st.expander("🛡️ Zinc: defensa y reparación del cuerpo"):
 - Aumenta la energía y vitalidad
 """)
 
-
-> 🔬 Tu cuerpo necesita estos minerales **a diario** para funcionar como debe.
-
-""", unsafe_allow_html=True)
-
+st.markdown("> 🔬 Tu cuerpo necesita estos minerales **a diario** para funcionar como debe.")
