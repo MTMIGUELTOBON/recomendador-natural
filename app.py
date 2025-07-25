@@ -35,8 +35,7 @@ st.video("https://www.youtube.com/watch?v=NuoXHhgvt2M")
 with st.expander("🧠 Magnesio: el mineral del equilibrio"):
     st.markdown("""
 - Relaja el sistema nervioso y los músculos  
-- Mejora el sueño y reduce el estrés  
-- Alivia dolores, migrañas y fatiga  
+- Mejora el sueño y reduce el estrés   
 - Apoya la digestión y el tránsito intestinal  
 - Regula el azúcar y la presión arterial
 """)
