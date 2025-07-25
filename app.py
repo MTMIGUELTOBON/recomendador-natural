@@ -1,3 +1,5 @@
+import streamlit as st
+
 st.markdown("""
 # 🌿 Sanar es posible: empieza por lo que comes
 
