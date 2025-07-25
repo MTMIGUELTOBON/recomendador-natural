@@ -8,7 +8,7 @@ Muchas veces no son enfermedades… sino señales de que tu cuerpo necesita nutr
 
 Al dejar el azúcar, reducir harinas y volver a lo natural, puedes iniciar un cambio profundo.
 
-Aquí descubrirás cómo minerales como el **Magnesio, el Potasio y el Zinc** pueden ayudarte a:
+Aquí descubrirás cómo minerales como el **Magnesio y el Potasio** pueden ayudarte a:
 
 ✅ Recuperar tu energía  
 ✅ Dormir mejor  
