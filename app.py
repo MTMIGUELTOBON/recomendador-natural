@@ -104,7 +104,7 @@ import urllib.parse
 # Título y texto descriptivo
 st.markdown("### 💙 Te recomendamos: **Sales de Magnesio B10 – Savifar**")
 
-st.image("https://i.imgur.com/7Fh8Zn2.jpg", caption="Sales de Magnesio B10 – Compuesto Marino", use_container_width=True)
+st.image("https://i.imgur.com/h8uBIM5.jpeg", caption="Sales de Magnesio B10 – Compuesto Marino", use_container_width=True)
 
 st.markdown("""
 Con 7 tipos de magnesio, potasio, zinc, vitaminas B6, D y otros minerales esenciales.  
