@@ -74,7 +74,7 @@ st.markdown("---")
 import streamlit as st
 import urllib.parse
 
-st.markdown("##“Recupera tu energía, mejora tu digestión y duerme mejor con una sola fórmula”")
+st.markdown("## Recupera tu energía, mejora tu digestión y duerme mejor con una sola fórmula")
 
 # Imagen desde Imgur
 st.image("https://i.imgur.com/h8uBIM5.jpeg", 
