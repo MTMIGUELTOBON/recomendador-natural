@@ -83,19 +83,10 @@ st.image("https://i.imgur.com/h8uBIM5.jpeg",
 
 # Descripción
 st.markdown("""
-Las **Sales de Magnesio B10** de Laboratorios Savifar son una mezcla ideal para restaurar el equilibrio mineral de tu cuerpo.
-
-**✨ Beneficios clave:**
-- Ayuda a relajar músculos y nervios  
-- Mejora la calidad del sueño  
-- Apoya la digestión y tránsito intestinal  
-- Reduce el estrés y la ansiedad  
-- Aporta energía y bienestar diario  
-
 📦 Fórmula respaldada por **Laboratorios Savifar**.  
 👩‍⚕️ Recomendado por expertos en bienestar digestivo y metabólico.
 
-💰 **Precio especial:** $64.900 con domicilio incluido.
+💰 **Precio especial:** $59.900 con domicilio incluido.
 """)
 
 # Llamado a la acción
