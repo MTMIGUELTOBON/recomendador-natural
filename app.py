@@ -79,7 +79,7 @@ st.markdown("## 🧴 Nuestro Producto Estrella: Sales de Magnesio B10")
 # Imagen desde Imgur
 st.image("https://i.imgur.com/h8uBIM5.jpeg", 
          caption="Sales de Magnesio B10 – Laboratorios Savifar",
-         use_column_width=True)
+         use_container_width=True)
 
 # Descripción
 st.markdown("""
