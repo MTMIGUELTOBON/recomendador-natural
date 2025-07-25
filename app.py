@@ -74,28 +74,42 @@ st.markdown("---")
 import streamlit as st
 import urllib.parse
 
-# Título y texto descriptivo
-st.markdown("### 💙 Te recomendamos: **Sales de Magnesio B10 – Savifar**")
+st.markdown("## 🧴 Nuestro Producto Estrella: Sales de Magnesio B10")
 
-st.image("https://i.imgur.com/h8uBIM5.jpeg", caption="Sales de Magnesio B10 – Compuesto Marino", use_container_width=True)
+# Imagen desde Imgur
+st.image("https://i.imgur.com/h8uBIM5.jpeg", 
+         caption="Sales de Magnesio B10 – Laboratorios Savifar",
+         use_column_width=True)
 
+# Descripción
 st.markdown("""
-Con 5 tipos de magnesio, potasio, zinc, vitaminas B6, D y otros minerales esenciales.  
-✅ Sin azúcar añadida  
-✅ Apto para toda la familia  
-✅ 600 gramos de pureza mineral
+Las **Sales de Magnesio B10** de Laboratorios Savifar son una mezcla ideal para restaurar el equilibrio mineral de tu cuerpo.
+
+**✨ Beneficios clave:**
+- Ayuda a relajar músculos y nervios  
+- Mejora la calidad del sueño  
+- Apoya la digestión y tránsito intestinal  
+- Reduce el estrés y la ansiedad  
+- Aporta energía y bienestar diario  
+
+📦 Fórmula respaldada por **Laboratorios Savifar**.  
+👩‍⚕️ Recomendado por expertos en bienestar digestivo y metabólico.
+
+💰 **Precio especial:** $64.900 con domicilio incluido.
 """)
 
-# Crear el mensaje de WhatsApp
-mensaje = "Hola, estoy interesado en las Sales de Magnesio B10 que vi en tu página web. ¿Me puedes dar más información?"
-url = f"https://wa.me/573053447946?text={urllib.parse.quote(mensaje)}"
+# Llamado a la acción
+st.markdown("""
+💬 ¿Tienes dudas o quieres pedirlo ahora?  
+Escríbenos y recibe atención personalizada vía WhatsApp:
+""")
 
-# Mostrar botón con estilo
-st.markdown(f"""
-<a href="{url}" target="_blank">
-    <div style='background-color:#25D366;padding:15px 25px;border-radius:10px;text-align:center;width:100%;max-width:300px;margin:auto;font-weight:bold;color:white;font-size:16px;text-decoration:none;'>
-        📲 Pedir por WhatsApp
-    </div>
+# Botón real de WhatsApp
+st.markdown("""
+<a href="https://wa.me/573053447946" target="_blank">
+    <button style="background-color:#25D366;color:white;padding:12px 24px;border:none;border-radius:8px;cursor:pointer;font-size:18px;">
+        📲 Hacer pedido por WhatsApp
+    </button>
 </a>
 """, unsafe_allow_html=True)
 
