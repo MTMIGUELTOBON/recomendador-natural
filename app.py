@@ -23,28 +23,40 @@ st.markdown("""
 Vivimos en una época donde **lo común es sentirse mal**,  
 pero **sanar es posible cuando comprendes lo que tu cuerpo necesita**.
 """, unsafe_allow_html=True)
-st.markdown("## 🌿 El poder del Magnesio, Potasio y Zinc")
-
-st.video("https://www.youtube.com/watch?v=NuoXHhgvt2M")
+st.markdown("## El poder de los minerales")
 
 st.markdown("""
 Los desequilibrios de minerales son más comunes de lo que creemos,  
 y afectan directamente cómo te sientes **cada día**.
 
-### 🧠 Magnesio
+st.video("https://www.youtube.com/watch?v=NuoXHhgvt2M")
+
+ with st.expander("🧠 Magnesio: el mineral del equilibrio"):
+    st.markdown("""
 - Relaja el sistema nervioso y los músculos  
-- Mejora el sueño, reduce ansiedad y fatiga  
-- Apoya la digestión y equilibra la presión arterial  
+- Mejora el sueño y reduce el estrés  
+- Alivia dolores, migrañas y fatiga  
+- Apoya la digestión y el tránsito intestinal  
+- Regula el azúcar y la presión arterial
+""")
 
-### 💪 Potasio
+with st.expander("💪 Potasio: esencial para el corazón y los músculos"):
+    st.markdown("""
 - Regula los latidos del corazón y los impulsos nerviosos  
-- Previene calambres y retención de líquidos  
-- Ayuda a eliminar el exceso de sodio del cuerpo  
+- Previene calambres y fatiga muscular  
+- Mejora el rendimiento físico y mental  
+- Ayuda a eliminar el exceso de sodio (reduce la hinchazón)
+""")
 
-### 🛡️ Zinc
-- Refuerza el sistema inmune  
-- Participa en la producción de energía y hormonas  
-- Mejora la piel, cicatrización y defensas
+with st.expander("🛡️ Zinc: defensa y reparación del cuerpo"):
+    st.markdown("""
+- Refuerza el sistema inmunológico  
+- Mejora la cicatrización de la piel  
+- Es clave en la producción de hormonas  
+- Combate el envejecimiento celular  
+- Aumenta la energía y vitalidad
+""")
+
 
 > 🔬 Tu cuerpo necesita estos minerales **a diario** para funcionar como debe.
 
