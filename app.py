@@ -113,7 +113,7 @@ Con 5 tipos de magnesio, potasio, zinc, vitaminas B6, D y otros minerales esenci
 
 # Crear el mensaje de WhatsApp
 mensaje = "Hola, estoy interesado en las Sales de Magnesio B10 que vi en tu página web. ¿Me puedes dar más información?"
-url = f"https://wa.me/5731122334455?text={urllib.parse.quote(mensaje)}"
+url = f"https://wa.me/573053447946?text={urllib.parse.quote(mensaje)}"
 
 # Mostrar botón con estilo
 st.markdown(f"""
