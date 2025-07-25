@@ -1,4 +1,29 @@
 import streamlit as st
+import streamlit as st
+
+# Estilo personalizado para fondo y tipografía
+st.markdown("""
+    <style>
+    .stApp {
+        background-color: #e0f7e9;
+        color: #222;
+        font-family: 'Arial', sans-serif;
+    }
+
+    h1, h2, h3 {
+        color: #0d5d4c;
+    }
+
+    .css-1d391kg p {
+        font-size: 1.1rem;
+    }
+
+    .css-1v0mbdj a {
+        color: #0d5d4c !important;
+    }
+
+    </style>
+""", unsafe_allow_html=True)
 
 st.markdown("""
 # 🌿 Sanar es posible: empieza por lo que comes
