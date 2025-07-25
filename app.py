@@ -98,9 +98,13 @@ Pequeños cambios diarios hacen una gran diferencia:
 
 st.markdown("---")
 
+import streamlit as st
+import urllib.parse
+
+# Título y texto descriptivo
 st.markdown("### 💙 Te recomendamos: **Sales de Magnesio B10 – Savifar**")
 
-st.image("https://i.imgur.com/7Fh8Zn2.jpg", caption="Sales de Magnesio B10 – Compuesto Marino", use_column_width=True)
+st.image("https://i.imgur.com/7Fh8Zn2.jpg", caption="Sales de Magnesio B10 – Compuesto Marino", use_container_width=True)
 
 st.markdown("""
 Con 7 tipos de magnesio, potasio, zinc, vitaminas B6, D y otros minerales esenciales.  
@@ -109,11 +113,16 @@ Con 7 tipos de magnesio, potasio, zinc, vitaminas B6, D y otros minerales esenci
 ✅ 600 gramos de pureza mineral
 """)
 
-# Botón de WhatsApp
-import urllib.parse
+# Crear el mensaje de WhatsApp
 mensaje = "Hola, estoy interesado en las Sales de Magnesio B10 que vi en tu página web. ¿Me puedes dar más información?"
-url = f"https://wa.me/573053447946?text={urllib.parse.quote(mensaje)}"
+url = f"https://wa.me/5731122334455?text={urllib.parse.quote(mensaje)}"
 
+# Mostrar botón con estilo
 st.markdown(f"""
-👉 [**Haz clic aquí para pedir por WhatsApp**]({url})
-""")
+<a href="{url}" target="_blank">
+    <div style='background-color:#25D366;padding:15px 25px;border-radius:10px;text-align:center;width:100%;max-width:300px;margin:auto;font-weight:bold;color:white;font-size:16px;text-decoration:none;'>
+        📲 Pedir por WhatsApp
+    </div>
+</a>
+""", unsafe_allow_html=True)
+
