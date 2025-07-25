@@ -48,7 +48,7 @@ st.markdown("""
 Vivimos en una época donde **lo común es sentirse mal**,  
 pero **sanar es posible cuando comprendes lo que tu cuerpo necesita**.
 """, unsafe_allow_html=True)
-st.markdown("## 🌿 El poder de los minerales")
+st.markdown("## El poder de los minerales")
 
 st.markdown("""
 Los desequilibrios de minerales son más comunes de lo que creemos,  
@@ -84,7 +84,7 @@ with st.expander("🛡️ Zinc: defensa y reparación del cuerpo"):
 
 st.markdown("> 🔬 Tu cuerpo necesita estos minerales **a diario** para funcionar como debe.")
 
-st.markdown("## 🌿 ¿Cómo empezar a cuidar tu salud mineral?")
+st.markdown("## ¿Cómo empezar a cuidar tu salud mineral?")
 
 st.markdown("""
 Pequeños cambios diarios hacen una gran diferencia:
@@ -107,7 +107,7 @@ image = Image.open("/mnt/data/1000083186.jpg")
 st.image(image, caption="Sales de Magnesio B10 – Compuesto Marino", use_column_width=True)
 
 st.markdown("""
-Con 7 tipos de magnesio, potasio, zinc, vitaminas B6, D y otros minerales esenciales.  
+Con 5 tipos de magnesio, potasio, zinc, vitaminas B6, D y otros minerales esenciales.  
 ✅ Sin azúcar añadida  
 ✅ Apto para toda la familia  
 ✅ 600 gramos de pureza mineral
