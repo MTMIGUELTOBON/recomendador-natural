@@ -82,9 +82,7 @@ with st.expander("🛡️ Zinc: defensa y reparación del cuerpo"):
 - Aumenta la energía y vitalidad
 """)
 
-st.markdown("> 🔬 Tu cuerpo necesita estos minerales **a diario** para funcionar como debe.")
-
-st.markdown("## 🌿 ¿Cómo empezar a cuidar tu salud mineral?")
+st.markdown("## ¿Cómo empezar a cuidar tu salud?")
 
 st.markdown("""
 Pequeños cambios diarios hacen una gran diferencia:
@@ -107,7 +105,7 @@ st.markdown("### 💙 Te recomendamos: **Sales de Magnesio B10 – Savifar**")
 st.image("https://i.imgur.com/h8uBIM5.jpeg", caption="Sales de Magnesio B10 – Compuesto Marino", use_container_width=True)
 
 st.markdown("""
-Con 7 tipos de magnesio, potasio, zinc, vitaminas B6, D y otros minerales esenciales.  
+Con 5 tipos de magnesio, potasio, zinc, vitaminas B6, D y otros minerales esenciales.  
 ✅ Sin azúcar añadida  
 ✅ Apto para toda la familia  
 ✅ 600 gramos de pureza mineral
